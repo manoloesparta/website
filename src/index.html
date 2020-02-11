@@ -6,22 +6,29 @@
     <title>maybemanolo</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          one  
-        </div>
-        <div class="col-sm">
-          two  
-        </div>
-        <div class="col-sm">
-          three  
-        </div>
-        <img width="200" src="assets/io.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">maybemanolo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#options-stuff" aria-controls="options-stuff" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="options-stuff">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">academic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
       </div>
-      <div id="app">
-        {{ message }}
-      </div>
-    </div>
+    </nav>
+    <section class="container-fluid pt-5" id="welcome">
+      <img src="img/io.jpg" class="my-pic"/>
+      <h1>hey whatsup</h1>
+    </section>
   </body>
 </html>
