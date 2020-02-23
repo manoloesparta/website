@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const path = require("path")
 
 module.exports = {
@@ -22,7 +23,7 @@ module.exports = {
         use: ["html-loader"]
       },
       {
-        test: /\.(svg|png|jpg|jpeg|gif)$/,
+        test: /\.(svg|png|jpg|jpeg|gif|ico)$/,
         use: {
           loader: "file-loader",
           options: {
@@ -31,14 +32,23 @@ module.exports = {
             esModule: false
           }
         }
+      },
+      {
+        test: /\.ttf$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: "[name].[ext]",
+            outputPath: "fonts",
+          }
+        }
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({ template: "./src/index.html" }),
-    
     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-    
-    new CleanWebpackPlugin.CleanWebpackPlugin()
+    new CleanWebpackPlugin.CleanWebpackPlugin(),
+    new FaviconsWebpackPlugin('./src/img/logo.png')
   ]
 }

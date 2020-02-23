@@ -1,16 +1,17 @@
 #welcome {
-
-  background-color: #CD5C5C;
-  height: 600px;
+  background: linear-gradient(#f79f47, #f78513);
   
   h1 {
     color: white;
+    font-size: 50px;
   }
-}
 
-.my-pic {
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
-  border: 3px solid white;
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    box-shadow: 8px 8px 4px 1px rgba(0, 0, 0, .3);
+  }
 }
