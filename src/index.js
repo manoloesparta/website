@@ -1,11 +1,10 @@
 import './sass/styles.scss';
-
-import "bootstrap/dist/js/bootstrap.min.js";
+import 'bootstrap/dist/js/bootstrap.min.js';
 import Vue from 'vue/dist/vue.min.js';
 
 new Vue({
-  el: '#app',
+  el: 'projects',
   data: {
-    message: 'cmon'
+    message: 'idk'
   }
 })
