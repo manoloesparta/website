@@ -1,0 +1,62 @@
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 350px;
+  max-width: 330px;
+  min-width: 330px;
+  
+  .card-img-top {
+    object-fit: scale-down;
+    max-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 100%;
+  }
+  
+  .card-link {
+    font-family: Arial !important;
+  }
+  
+  .card-title {
+    font-family: Arial !important;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-family: Arial !important;
+    max-width: 330px;
+  }
+
+  .card-body {
+    padding: 12px;
+    text-align: justify;
+  }
+
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .badge {
+    font-family: Arial !important;
+  }
+}
+
+.card-collection {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: inline-block;
+
+  .card {
+    display: inline-block;
+  }
+}
+
+.content-section {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}

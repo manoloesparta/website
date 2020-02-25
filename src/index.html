@@ -23,7 +23,7 @@
             <a class="nav-link" href="#projects">projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#academic">academic</a>
+            <a class="nav-link" href="#education">educaction</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">blog</a>
@@ -41,17 +41,42 @@
           <img src="img/io.jpg" class="img-fluid"/>
         </div>
         <div class="col-xl-5 col-gl-4 col-md-6 col-sm-12 text-center">
-          <h1>This is me and this are some of the stuff I have done over the years</h1>
+          <h1 class="mt-5">This is me and this is some of the stuff I have done over the years</h1>
         </div>
       </div>
     </section>
     
-    <section id="projects" class="container py-4">
-      <h3>Projects</h3><hr>
+    <h3 class="px-5 mt-5">Projects</h3><hr class="mx-3">
+    <section id="projects" class="content-section container-fluid py-4">
+      <div class="row card-collection">
+        <div class="card" v-for="item in list">
+          <img class="card-img-top mw-15" :src="item.img">
+          <div class="card-body">
+            <div class="card-title">{{ item.title }}</div>
+            <p class="card-text">{{ item.desc }}</p>
+            <span v-for="lang in item.stack" class="badge badge-pill badge-warning m-1">{{ lang }}</span>
+          </div>
+          <div class="card-footer text-muted">
+            <a class="card-link" :href="item.link" target="_blank">See more</a>
+          </div>            
+        </div>
+      </div>
     </section>
 
-    <section id="academic" class="container py-4">
-      <h3>Academic</h3><hr>
+    <h3 class="px-5">Education</h3><hr class="mx-3">
+    <section id="education" class="content-section container-fluid py-4">
+      <div class="row card-collection">
+        <div class="card" v-for="item in list">
+          <img class="card-img-top mw-15" :src="item.img">
+          <div class="card-body">
+            <div class="card-title">{{ item.title }}</div>
+            <p class="card-text">{{ item.desc }}</p>
+          </div>
+          <div class="card-footer text-muted">
+            <a class="card-link" :href="item.link" target="_blank">See more</a>
+          </div>            
+        </div>
+      </div>
     </section>
 
     <section id="contact">
