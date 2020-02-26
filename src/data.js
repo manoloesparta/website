@@ -16,7 +16,7 @@ const edata = [
     'desc': 'I\'m currently studying computer science in CETYS Universidad',
     'link': 'https://www.cetys.mx/',
     'img': './img/cetys.png'
-  }
+  },
 ];
 
 module.exports = { pdata, edata };

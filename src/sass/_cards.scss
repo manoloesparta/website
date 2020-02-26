@@ -2,8 +2,8 @@
   margin-left: 10px;
   margin-right: 10px;
   min-height: 350px;
-  max-width: 330px;
-  min-width: 330px;
+  max-height: 400px;
+  width: 330px;
   
   .card-img-top {
     object-fit: scale-down;
@@ -33,30 +33,10 @@
   }
 
   .card-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     text-align: center;
   }
 
   .badge {
     font-family: Arial !important;
   }
-}
-
-.card-collection {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  display: inline-block;
-
-  .card {
-    display: inline-block;
-  }
-}
-
-.content-section {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
 }
