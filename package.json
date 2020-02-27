@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/maybemanolo/maybemanolo.github.io#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
     "sass": "^1.25.0",
     "vue": "^2.6.11"
