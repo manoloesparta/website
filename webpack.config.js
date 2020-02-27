@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const CleanWebpackPlugin = require("clean-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin")
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -47,9 +48,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./src/index.html" }),
+    new HtmlWebpackPlugin({ template: "src/index.html" }),
     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
     new CleanWebpackPlugin.CleanWebpackPlugin(),
-    new FaviconsWebpackPlugin("./src/img/logo.png")
+    new FaviconsWebpackPlugin("src/img/logo.png"),
+    new CopyWebpackPlugin([{ from:'src/img/', to:'img/' }]),
   ]
 }

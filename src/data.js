@@ -17,6 +17,13 @@ const edata = [
     'link': 'https://www.cetys.mx/',
     'img': './img/cetys.png'
   },
+  {
+    'id': 0,
+    'title': 'Data Structures',
+    'desc': 'This are my implementations of useful and famous data structures ',
+    'link': 'https://github.com/maybemanolo/data',
+    'img': './img/data.png'
+  },
 ];
 
 module.exports = { pdata, edata };
