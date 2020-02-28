@@ -20,10 +20,10 @@
       <div class="collapse navbar-collapse" id="options-stuff">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#gotoprojects">projects</a>
+            <a class="nav-link" href="#projects">projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gotoeducation">educaction</a>
+            <a class="nav-link" href="#education">educaction</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">blog</a>
@@ -46,11 +46,13 @@
       </div>
     </section>
     
-    <h3 class="px-5 mt-5" id="gotoprojects">Projects</h3><hr class="mx-3">
-    <section id="projects" class="container-fluid py-4" style="overflow-x: scroll;">
-      <div class="row flex-row flex-nowrap">
-        <div class="card" v-for="item in list">
-          <img class="card-img-top" :src="item.img">
+    <section id="projects" class="container-fluid">
+      <div class="p-5 mx-5">
+        <h3>Projects</h3><hr>
+      </div>
+      <div class="row justify-content-center">
+        <div class="card mt-3" v-for="item in list">
+          <img class="card-img-top p-2" :src="item.img">
           <div class="card-body">
             <div class="card-title">{{ item.title }}</div>
             <p class="card-text">{{ item.desc }}</p>
@@ -58,16 +60,18 @@
           </div>
           <div class="card-footer text-muted">
             <a class="card-link" :href="item.link" target="_blank">See more</a>
-          </div>            
+          </div>
         </div>
       </div>
     </section>
 
-    <h3 class="px-5" id="gotoeducation">Education</h3><hr class="mx-3">
-    <section id="education" class="container-fluid py-4">
-      <div class="row flex-row flex-nowrap">
+    <section id="education" class="container-fluid my-5">
+      <div class="p-5 mx-5">
+        <h3>Educaction</h3><hr>
+      </div>      
+      <div class="row justify-content-center">
         <div class="card" v-for="item in list">
-          <img class="card-img-top" :src="item.img">
+          <img class="card-img-top p-2" :src="item.img">
           <div class="card-body">
             <div class="card-title">{{ item.title }}</div>
             <p class="card-text">{{ item.desc }}</p>
