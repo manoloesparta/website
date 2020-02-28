@@ -2,10 +2,34 @@ const pdata = [
   {
     'id': 0,
     'title': 'Portfolio',
-    'desc': 'The source code of this web page',
-    'stack': ['HTML/CSS', 'JavaScript', 'Webpack'],
+    'desc': 'You can find the source code of this website right here',
+    'stack': ['JavaScript', 'Sass', 'Webpack'],
     'link': 'https://github.com/maybemanolo/portfolio',
     'img': './img/logo.png',
+  },
+  {
+    'id': 1,
+    'title': 'Neural Network',
+    'desc': 'From scratch implementation of an artificial neural network',
+    'stack': ['Python', 'Numpy'],
+    'link': 'https://github.com/maybemanolo/logicnet',
+    'img': './img/ann.png',
+  },
+  {
+    'id': 2,
+    'title': 'Shapes',
+    'desc': 'A fun graphical projects that creates shapes and animate them',
+    'stack': ['C#', 'WPF'],
+    'link': 'https://github.com/maybemanolo/shapes',
+    'img': './img/shapes.jpg',
+  },
+  {
+    'id': 3,
+    'title': 'Playlist.py',
+    'desc': 'This is not a very normal way of discovering music at my own way',
+    'stack': ['Python', 'Spotify API'],
+    'link': 'https://github.com/maybemanolo/playlist.py',
+    'img': './img/playlist.png',
   },
 ];
 
@@ -18,7 +42,7 @@ const edata = [
     'img': './img/cetys.png'
   },
   {
-    'id': 0,
+    'id': 1,
     'title': 'Data Structures',
     'desc': 'This are my implementations of useful and famous data structures ',
     'link': 'https://github.com/maybemanolo/data',
