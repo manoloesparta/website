@@ -31,6 +31,14 @@ const pdata = [
     'link': 'https://github.com/maybemanolo/playlist.py',
     'img': './img/playlist.png',
   },
+  {
+    'id': 4,
+    'title': 'PI and me',
+    'desc': 'A curios way of making a special connection with the number PI',
+    'stack': ['Golang', 'Python', 'Web'],
+    'link': 'https://github.com/maybemanolo/pi',
+    'img': './img/pi.jpg',
+  },
 ];
 
 const edata = [
