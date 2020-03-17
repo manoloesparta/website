@@ -4,7 +4,7 @@ const pdata = [
     'title': 'Portfolio',
     'desc': 'You can find the source code of this website right here',
     'stack': ['JavaScript', 'Sass', 'Webpack'],
-    'link': 'https://github.com/maybemanolo/portfolio',
+    'link': 'https://github.com/manoloesparta/portfolio',
     'img': './img/logo.png',
   },
   {
@@ -12,7 +12,7 @@ const pdata = [
     'title': 'Neural Network',
     'desc': 'From scratch implementation of an artificial neural network',
     'stack': ['Python', 'Numpy'],
-    'link': 'https://github.com/maybemanolo/logicnet',
+    'link': 'https://github.com/manoloesparta/logicnet',
     'img': './img/ann.png',
   },
   {
@@ -20,7 +20,7 @@ const pdata = [
     'title': 'Shapes',
     'desc': 'A fun graphical projects that creates shapes and animate them',
     'stack': ['C#', 'WPF'],
-    'link': 'https://github.com/maybemanolo/shapes',
+    'link': 'https://github.com/manoloesparta/shapes',
     'img': './img/shapes.jpg',
   },
   {
@@ -28,7 +28,7 @@ const pdata = [
     'title': 'Playlist.py',
     'desc': 'This is not a very normal way of discovering music at my own way',
     'stack': ['Python', 'Spotify API'],
-    'link': 'https://github.com/maybemanolo/playlist.py',
+    'link': 'https://github.com/manoloesparta/playlist.py',
     'img': './img/playlist.png',
   },
 ];
@@ -45,8 +45,15 @@ const edata = [
     'id': 1,
     'title': 'Data Structures',
     'desc': 'This are my implementations of useful and famous data structures ',
-    'link': 'https://github.com/maybemanolo/data',
+    'link': 'https://github.com/manoloesparta/data',
     'img': './img/data.png'
+  },
+  {
+    'id': 2,
+    'title': 'Nand 2 Tetris',
+    'desc': 'My solutions for the famous course on computer architecture',
+    'link': 'https://github.com/manoloesparta/n2t',
+    'img': './img/n2t.png'
   },
 ];
 
