@@ -36,7 +36,7 @@ const pdata = [
     'title': 'PI and me',
     'desc': 'A curios way of making a special connection with the number PI',
     'stack': ['Golang', 'Python', 'Web'],
-    'link': 'https://github.com/maybemanolo/pi',
+    'link': 'https://github.com/manoloesparta/pi',
     'img': './img/pi.jpg',
   },
 ];
