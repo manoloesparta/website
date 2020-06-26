@@ -1,94 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>manoloesparta</title>
-  </head>
-  <body id="main">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <a class="navbar-brand nav-link" href="#main">
-        <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">
-        manoloesparta
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#options-stuff" aria-controls="options-stuff" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="options-stuff">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">educaction</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <section class="container-fluid py-5" id="welcome">
-      <div class="row justify-content-center">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
-          <img src="img/io.jpg" class="img-fluid"/>
-        </div>
-        <div class="col-xl-5 col-gl-4 col-md-6 col-sm-12 text-center">
-          <h1 class="mt-5">This is me and this is some of the stuff I have done over the years</h1>
-        </div>
-      </div>
-    </section>
-    
-    <section id="projects" class="container-fluid">
-      <div class="p-5 mx-5">
-        <h3>Projects</h3><hr>
-      </div>
-      <div class="row justify-content-center">
-        <div class="card mt-3" v-for="item in list">
-          <img class="card-img-top p-2" :src="item.img">
-          <div class="card-body">
-            <div class="card-title">{{ item.title }}</div>
-            <p class="card-text">{{ item.desc }}</p>
-            <span v-for="lang in item.stack" class="badge badge-pill badge-warning m-1">{{ lang }}</span>
-          </div>
-          <div class="card-footer text-muted">
-            <a class="card-link" :href="item.link" target="_blank">See more</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="container-fluid my-5">
-      <div class="p-5 mx-5">
-        <h3>Educaction</h3><hr>
-      </div>
-      <div class="row justify-content-center">
-        <div class="card" v-for="item in list">
-          <img class="card-img-top p-2" :src="item.img">
-          <div class="card-body">
-            <div class="card-title">{{ item.title }}</div>
-            <p class="card-text">{{ item.desc }}</p>
-          </div>
-          <div class="card-footer text-muted">
-            <a class="card-link" :href="item.link" target="_blank">See more</a>
-          </div>            
-        </div>
-      </div>
-    </section>
-
-    <footer id="contact" class="container-fluid text-center p-5">
-      <h2 class="mb-4">Contact me!</h2>
-      <a href="https://twitter.com/maybemanolo" target="_blank"><i class="fab fa-twitter-square"></i></a>
-      <a href="https://github.com/manoloesparta" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/manuel-esparza-9b6948165/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </footer>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manoloesparta</title>
+</head>
+<body>
+  <div></div>
+</body>
 </html>

@@ -1,22 +1,20 @@
 const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
-const CleanWebpackPlugin = require("clean-webpack-plugin")
+const CleanWebpackPlugin = require("clean-webpack-plugin").CleanWebpackPlugin
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin")
-const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
-    main: "./src/index.js",
-    vendor: "./src/vendor.js"
+    main: "./src/main.js",
   },
-  mode: "development",
+  mode: "production",
   output: {
     filename: "[name].bundle.[contentHash].js",
     path: path.resolve(__dirname, "dist")
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.scss$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       },
@@ -36,7 +34,7 @@ module.exports = {
         }
       },
       {
-        test: /\.ttf$/,
+        test: /\.(ttf|otf|woff)$/,
         use: {
           loader: "file-loader",
           options: {
@@ -45,13 +43,21 @@ module.exports = {
           }
         }
       },
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({ template: "src/index.html" }),
     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
-    new CleanWebpackPlugin.CleanWebpackPlugin(),
-    new FaviconsWebpackPlugin("src/img/logo.png"),
-    new CopyWebpackPlugin([{ from:'src/img/', to:'img/' }]),
+    new CleanWebpackPlugin(),
   ]
 }
