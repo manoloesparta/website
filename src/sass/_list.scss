@@ -1,0 +1,17 @@
+.sections-list {
+  list-style: none;
+  grid-area: left;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    color: $light-contrast;
+    font-size: 50px;
+
+    &:hover {
+      color: $dark-contrast;
+    }
+  }
+}

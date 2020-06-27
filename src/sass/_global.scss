@@ -4,6 +4,24 @@ $base-color: rgb(58, 175, 169);
 $lighter-base: rgb(222, 242, 241);
 $light-contrast: rgb(245, 256, 256);
 
+@font-face {
+  font-family: 'typewriter';
+  src: url('../fonts/TravelingTypewriter.ttf');
+}
+
 body {
   background: $base-color;
+}
+
+* {
+  font-family: 'typewriter';
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-areas:
+    "left right"
+  ;
 }
