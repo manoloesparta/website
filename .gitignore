@@ -1,14 +1,11 @@
-node_modules/
-dist/
-npm-debug.log
+# Conf
 .vscode/
-package-lock.json
-.DS_Store# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage

@@ -1,0 +1,51 @@
+/* Global */
+
+body {
+    margin: 24px auto;
+    max-width: 900px;
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+.bold {
+    font-family: 'Roboto Bold';
+}
+
+.thin {
+    font-family: 'Roboto Thin';
+}
+
+h2 {
+    margin-top: 32px;
+}
+
+/* Header */
+
+header {
+    font-family: 'Roboto';
+}
+
+#emoji:hover {
+    cursor: pointer;
+}
+
+/* Who am I? */
+
+.picture {
+    width: 250px;
+    height: 250px;
+}
