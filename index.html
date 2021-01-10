@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hello There</title>
+  <title>This is Esparta</title>
 
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css">
+  <link rel="stylesheet" href="styles.css">
 
   <script defer src="app.js"></script>
 
@@ -17,7 +17,7 @@
 
   <header>
     <h1><span id="emoji"></span> <span id="header">Manuel Esparza</span></h1>
-    <p class="my-3">I’m a wannabe software engineer with experience in web development and cloud technologies. Interested in back-end development, cloud infrastructure, deep learning, systems, security, and programming languages. <span class="bold">Never stop learning.</span></p>
+    <p class="my-3">I’m a wannabe software engineer with experience in web development and devops. Interested in back-end development, cloud infrastructure, deep learning, systems, security, programming languages, and CS in general. <span class="bold">Never stop learning.</span></p>
   </header>
 
   <section>
@@ -27,29 +27,97 @@
     <div class="wrapper block">
       <img class="picture" src="img/me.png" alt="me, but in a picture">
     </div>
+
+    <div class="description">
+      <p>Here is a picture of me, not the greates at smiling in pcitures (sorry mom).</p>
+      <p>I'm 21 year old, love camping, Super Smash Bros, music, synthetizers, guitars, and all computer science realted stuff.</p></p>
+      <p>Currently reading SICP, and trying not kill myself doing electronics.</p>
+
+      <button id="github" class="block social">Github</button>
+      <button id="twitter" class="block social">Twitter</button>
+      <button id="linkedin" class="block social">Linkedin</button>
+      <button id="discord" class="block social">Discord</button>
+    </div>
   </section>
 
   <section>
     <h2>Experience</h2>
     <hr>
+
+    <div class="card wrapper block">
+      <h3><span class="bold">Devops Trainee</span> at Insulet</h3>
+      <hr>
+      <small>September 2020 - Today</small>
+      <p>Currenlty been working at the devops department with python and the atlassian suite.</p>
+      <hr>
+      <p>Ansible, Python, and Atlassian</p>
+    </div>
+
+    <div class="card wrapper block">
+      <h3><span class="bold">Internship</span> at Nafiux</h3>
+      <hr>
+      <small>March 2020 - June 2020</small>
+      <p>Laid the first steps to build a public cluster for students in Tijuana.</p>
+      <hr>
+      <p>Linux, Docker, and Wireguard</p>
+    </div>
   </section>
 
   <section>
     <h2>Education</h2>
     <hr>
+
+    <div class="card wrapper block">
+      <h3><span class="bold">Computer science</span> at CETYS</h3>
+      <hr>
+      <small>August 2018 - Today</small>
+      <p>Currently studying Computer Science at a CETYS Universidad Campus Tijuana.</p>
+    </div>
   </section>
 
   <section>
     <h2>Projects</h2>
     <hr>
-  </section>
-  
-  <section>
-    <h2>Contact</h2>
-    <hr>
+
+    <div id="pi" class="card wrapper block">
+      <h3><span class="bold">Pi and Me</span></h3>
+      <hr>
+      <img src="img/pi.jpg">
+      <p>Let's celebrate Pi day. Search any number, like your phone number in the digits of Pi.</p>
+      <hr>
+      <p>Go, Python, and HTML/CSS/JS</p>
+    </div>
+
+    <div id="wiki" class="card wrapper block">
+      <h3><span class="bold">Wikigraph</span></h3>
+      <hr>
+      <img src="img/wiki.png">
+      <p>Let's check how far any wikipedia article from any other. Breath vs Depth Search.</p>
+      <hr>
+      <p>C++ and Python</p>
+    </div>
+
+    <div id="hn" class="card wrapper block">
+      <h3><span class="bold">HN Journal</span></h3>
+      <hr>
+      <img src="img/hn.png">
+      <p>Let's consume Hacker News in more random and funny ways. Over engineering dumb ideas.</p>
+      <hr>
+      <p>Go, Flutter, and Linux</p>
+    </div>
+
+    <div id="guitar" class="card wrapper block">
+      <h3><span class="bold">Angry Guitar</span></h3>
+      <hr>
+      <img src="img/angry.png">
+      <p>Trying to imitate classic guitar distortion with a artificial neural network</p>
+      <hr>
+      <p>Python and Keras/Tensorflow</p>
+    </div>
   </section>
 
-  <footer>
+  <footer class="thin">
+    <p>Check the source code of this website <a href="https://github.com/manoloesparta/website" target="_blank">here</a></p>
   </footer>
 
 </body>

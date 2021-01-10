@@ -4,6 +4,7 @@ body {
     margin: 24px auto;
     max-width: 900px;
     font-family: 'Roboto';
+    text-align: justify;
 }
 
 @font-face {
@@ -29,8 +30,30 @@ body {
     font-family: 'Roboto Thin';
 }
 
+.card {
+    max-width: 275px;
+    padding: 10px !important;
+    text-align: left;
+}
+
+.card p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.card img {
+    height: 150px;
+    display: block;
+    margin: 10px auto 0px auto !important;
+}
+
 h2 {
     margin-top: 32px;
+}
+
+section h2 {
+    width: 100%;
+    display: block;
 }
 
 /* Header */
@@ -48,4 +71,28 @@ header {
 .picture {
     width: 250px;
     height: 250px;
+    display: block;
+    float: left;
+}
+
+.description {
+    float: right;
+    display: block;
+    max-width: 600px;
+}
+
+.social {
+    display: inline;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
 }
