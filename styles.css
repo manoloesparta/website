@@ -1,6 +1,7 @@
 /* Global */
 
 body {
+    padding: 0px 20px;
     margin: 24px auto;
     max-width: 900px;
     font-family: 'Roboto';
