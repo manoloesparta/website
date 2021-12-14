@@ -1,0 +1,84 @@
+/* Global */
+
+body {
+  padding: 0px 20px;
+  margin: 24px auto;
+  max-width: 900px;
+  font-family: 'Roboto';
+  text-align: justify;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.card {
+  max-width: 275px;
+  padding: 10px !important;
+  text-align: left;
+}
+
+.card p {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.card img {
+  height: 150px;
+  display: block;
+  margin: 10px auto 0px auto !important;
+}
+
+h2 {
+  margin-top: 32px;
+}
+
+section h2 {
+  width: 100%;
+  display: block;
+}
+
+/* Header */
+
+header {
+  font-family: 'Roboto';
+}
+
+#emoji:hover {
+  cursor: pointer;
+}
+
+/* Who am I? */
+
+.picture {
+  width: 250px;
+  height: 250px;
+  display: block;
+  float: left;
+}
+
+.description {
+  float: right;
+  display: block;
+  max-width: 600px;
+}
+
+.social {
+  display: inline;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
