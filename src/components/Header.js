@@ -20,7 +20,7 @@ export default function Header() {
     <header>
       <h1>
         <span id="emoji" onClick={nameHandler}></span> 
-        <span id="header" onClick={nameHandler}> {name}</span>
+        <span> {name}</span>
       </h1>
       <p>{description}<span class="bold">Never stop learning.</span></p>
     </header>
