@@ -58,20 +58,20 @@ export const projectsEntries = [
     image: shrtnr,
     url: 'https://github.com/manoloesparta/wikigraph',
     description: 'Public URL shortener as an entry for the Cloudflare Developer Summer Challenge.',
-    stack: 'React and Clouflare Workers',
+    stack: 'JS and Clouflare Workers',
   },
   {
     title: 'Pi and Me',
     image: pi,
     url: 'https://github.com/manoloesparta/pi',
     description: 'Let\'s celebrate Pi day. Search any number, like your phone number in the digits of Pi.',
-    stack: 'Go, Python, and HTML/CSS/JS',
+    stack: 'Go, Python, and JS', 
   },
   {
     title: 'HN Journal',
     image: hn,
     url: 'https://github.com/manoloesparta/hnjournal',
     description: 'Consume Hacker News in more random and funny ways. Over engineering dumb ideas.',
-    stack: 'Go, HTML/CSS/JS, and Linux',
+    stack: 'Go, JS, and Linux',
   },
 ]
