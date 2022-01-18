@@ -26,7 +26,7 @@ export default function WhoAmI() {
 
       <div class="description">
         <p>Here is a picture of me, not the greatest at smiling in pcitures (sorry mom).</p>
-        <p>I'm 22 years old, love camping, SSBM (and other fighting games), music, synthetizers, guitars, and computer science realted stuff.</p>
+        <p>I'm 22 years old, love camping, SSBM (and other fighting games), music, synthetizers, guitars, and computer science related stuff.</p>
         <p>Currently reading about microservices and asynchronous programming, and trying to do an ollie without breaking a leg.</p>
         <p><span class="bold">Tools: </span>AWS, Linux, Docker, Git/Github</p>
         <p><span class="bold">Programming: </span>Python, Java, Golang, Node JS, C/C++, React</p>
