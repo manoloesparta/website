@@ -50,23 +50,19 @@ Resources:
       OauthToken: !Ref OauthToken
       BuildSpec: |-
         version: 1
-        applications:
-          - appRoot: client
-            frontend:
-              phases:
-                preBuild:
-                  commands:
-                    - npm install
-                build:
-                  commands:
-                    - npm run build
-              artifacts:
-                files:
-                    - '**/*'
-                baseDirectory: build
-              cache:
-                paths:
-                  - node_modules/**/*
+        frontend:
+          phases:
+            build:
+              commands:
+                - npm i
+                - npm run build
+          artifacts:
+            baseDirectory: build
+            files:
+              - "**/*"
+          cache:
+            paths:
+              - node_modules/**/*
       IAMServiceRole: !GetAtt AmplifyRole.Arn
 
   MainBranch:
