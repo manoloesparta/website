@@ -9,14 +9,14 @@ export const experienceEntries = [
   {
     position: 'Backend Part Time',
     company: 'at Insulet',
-    period: 'Abril 2021 - May 2022',
-    description: 'Currenlty working at the cloud/backend team developing microservices.',
+    period: 'April 2021 - May 2022',
+    description: 'Currenlty working at the cloud team designing and developing microservices.',
     stack: 'AWS, Python, and Java',
   },
   {
     position: 'Devops Intern',
     company: 'at Insulet',
-    period: 'September 2020 - Abril 2021',
+    period: 'September 2020 - April 2021',
     description: 'Worked at the devops department automating with python and the Atlassian API.',
     stack: 'Ansible, Python, and Atlassian',
   },
