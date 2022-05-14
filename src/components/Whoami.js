@@ -25,11 +25,12 @@ export default function WhoAmI() {
       </div>
 
       <div class="description">
-        <p>Here is a picture of me, not the greatest at smiling in pcitures (sorry mom).</p>
-        <p>I'm 22 years old, love camping, SSBM (and other fighting games), music, synthetizers, guitars, and computer science related stuff.</p>
-        <p>Currently reading about microservices and asynchronous programming, and trying to do an ollie without breaking a leg.</p>
-        <p><span class="bold">Tools: </span>AWS, Linux, Docker, Git/Github</p>
-        <p><span class="bold">Programming: </span>Python, Java, Golang, Node JS, C/C++, React</p>
+        <p>Hello there, here is a picture of me.</p>
+        <p>I'm 22 years old, passionate about camping, ssbm, synthetizers, guitars, and computer science stuff.</p>
+        <p>Currently learning about microservices, software engineering, and (sometimes) full stack things.</p>
+        <p><span class="bold">Programming Languages: </span>Python, Java, Go, Typescript, C, C++, HTML/CSS/JS</p>
+        <p><span class="bold">Frameworks: </span>Flask, Django, Vertx, Express, React</p>
+        <p><span class="bold">Tools: </span>AWS, Linux, Docker, Git</p>
 
         <button onClick={openGithub} class="block social">Github</button>
         <button onClick={openLinkedin} class="block social">Linkedin</button>

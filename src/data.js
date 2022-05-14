@@ -7,17 +7,17 @@ import shrtnr from './assets/shrtnr.png'
 
 export const experienceEntries = [
   {
-    position: 'Backend Part Time',
+    position: 'Cloud Part Time',
     company: 'at Insulet',
     period: 'April 2021 - May 2022',
-    description: 'Currenlty working at the cloud team designing and developing microservices.',
+    description: 'Design and implement backend services for the Omnipod 5 infraestructure.',
     stack: 'AWS, Python, and Java',
   },
   {
     position: 'Devops Intern',
     company: 'at Insulet',
     period: 'September 2020 - April 2021',
-    description: 'Worked at the devops department automating with python and the Atlassian API.',
+    description: 'Developed some scripts with python for automating the onboarding process.',
     stack: 'Ansible, Python, and Atlassian',
   },
   {
@@ -33,8 +33,8 @@ export const educationEntries = [
   {
     title: 'Computer Science',
     school: 'at CETYS',
-    period: 'August 2018 - Today',
-    description: 'Currently studying Computer Science at a CETYS Universidad Campus Tijuana.',
+    period: 'August 2018 - July 2022',
+    description: 'Studied Computer Science at CETYS Universidad Campus Tijuana.',
   },
 ]
 
