@@ -7,14 +7,14 @@ import shrtnr from './assets/shrtnr.png'
 
 export const experienceEntries = [
   {
-    position: 'Cloud Part Time',
+    position: 'Cloud Developer',
     company: 'at Insulet',
     period: 'April 2021 - May 2022',
     description: 'Design and implement backend services for the Omnipod 5 infraestructure.',
     stack: 'AWS, Python, and Java',
   },
   {
-    position: 'Devops Intern',
+    position: 'Devops',
     company: 'at Insulet',
     period: 'September 2020 - April 2021',
     description: 'Developed some scripts with python for automating the onboarding process.',
