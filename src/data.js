@@ -1,11 +1,16 @@
 import pi from './assets/pi.jpg'
-import hn from './assets/hn.png'
 import lalalang from './assets/lalalang.png'
-import lostinp from './assets/lostinp.png'
 import shrtnr from './assets/shrtnr.png'
 
 
 export const experienceEntries = [
+  {
+    position: 'Software Developer',
+    company: 'at Oracle',
+    period: 'July 2022 - Today',
+    description: 'Currenlty working on the OCI infrastructure with the Autonomous Linux team.',
+    stack: 'Java, Go, Python, and OCI',
+  },
   {
     position: 'Cloud Developer',
     company: 'at Insulet',
@@ -47,13 +52,6 @@ export const projectsEntries = [
     stack: 'Python, React, and AWS'
   },
   {
-    title: 'Lost in Paradise',
-    image: lostinp,
-    url: 'https://github.com/manoloesparta/lostinparadise',
-    description: 'Application for students to visualize which items are currently lost in school',
-    stack: 'Python and React'
-  },
-  {
     title: 'Shrtnr',
     image: shrtnr,
     url: 'https://github.com/manoloesparta/wikigraph',
@@ -66,12 +64,5 @@ export const projectsEntries = [
     url: 'https://github.com/manoloesparta/pi',
     description: 'Let\'s celebrate Pi day. Search any number, like your phone number in the digits of Pi.',
     stack: 'Go, Python, and JS', 
-  },
-  {
-    title: 'HN Journal',
-    image: hn,
-    url: 'https://github.com/manoloesparta/hnjournal',
-    description: 'Consume Hacker News in more random and funny ways. Over engineering dumb ideas.',
-    stack: 'Go, JS, and Linux',
   },
 ]

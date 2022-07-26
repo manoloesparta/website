@@ -3,7 +3,7 @@ import me from '../assets/me.jpg'
 
 
 export default function WhoAmI() {
-  const openLinkedin = () => window.open('https://www.linkedin.com/in/manuel-esparza-guzman-9b6948165/')
+  const openLinkedin = () => window.open('https://www.linkedin.com/in/manuel-esparza-9b6948165/')
   const openGithub = () => window.open('https://github.com/manoloesparta')
 
   const [discordButton, setDiscordButton] = useState('Discord')
