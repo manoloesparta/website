@@ -15,7 +15,7 @@ export const experienceEntries = [
     position: 'Cloud Developer',
     company: 'at Insulet',
     period: 'April 2021 - May 2022',
-    description: 'Design and implement backend services for the Omnipod 5 infraestructure.',
+    description: 'Design and implement backend services for the Omnipod 5 infrastructure.',
     stack: 'AWS, Python, and Java',
   },
   {
