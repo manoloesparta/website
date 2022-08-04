@@ -5,7 +5,7 @@ import shrtnr from './assets/shrtnr.png'
 
 export const experienceEntries = [
   {
-    position: 'Software Developer',
+    position: 'Software Engineer',
     company: 'at Oracle',
     period: 'July 2022 - Today',
     description: 'Currenlty working on the OCI infrastructure with the Autonomous Linux team.',
