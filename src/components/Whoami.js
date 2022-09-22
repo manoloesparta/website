@@ -6,15 +6,6 @@ export default function WhoAmI() {
   const openLinkedin = () => window.open('https://www.linkedin.com/in/manuel-esparza-9b6948165/')
   const openGithub = () => window.open('https://github.com/manoloesparta')
 
-  const [discordButton, setDiscordButton] = useState('Discord')
-  const discordHandler = () => {
-    if(discordButton === 'Discord') {
-      setDiscordButton('manoloesparta#2766')
-    } else {
-      setDiscordButton('Discord')
-    }
-  }
-
   return (
     <div>
       <h2>Who am I?</h2>
@@ -34,7 +25,6 @@ export default function WhoAmI() {
 
         <button onClick={openGithub} class="block social">Github</button>
         <button onClick={openLinkedin} class="block social">Linkedin</button>
-        <button onClick={discordHandler} class="block social">{discordButton}</button>
       </div>
     </div>
   )
