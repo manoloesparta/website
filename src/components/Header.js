@@ -1,10 +1,10 @@
+import React from 'react';
 import { useEffect, useState } from "react"
 
 const randomNumberRange = (min, max) => Math.floor(Math.random() * (max - min) + min)
 
 export default function Header() {
-  const description = `I'm a Software Engineer with professional experience in cloud infrastructure and backend development on a microservices architecture. \
-    Interested mostly in cloud, backend, infrastructure, systems, compilers, and fullstack.`
+  const description = `Software engineer with experience in cloud, frontend, and backend development. Also interested in systems and compilers.`
   
   useEffect(() => {
     const chosen = randomNumberRange(128512, 128567)

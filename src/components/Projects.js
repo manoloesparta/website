@@ -1,5 +1,5 @@
+import React from 'react';
 import { projectsEntries } from '../data'
-
 
 function Card({title, description, stack, image, url}) {
   const openUrl = () => window.open(url)

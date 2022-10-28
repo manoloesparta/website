@@ -1,5 +1,5 @@
+import React from 'react';
 import { educationEntries } from "../data"
-
 
 function Card({title, school, period, description}) {
   return (

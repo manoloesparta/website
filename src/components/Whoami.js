@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react';
 import me from '../assets/me.jpg' 
 
 
@@ -7,24 +7,24 @@ export default function WhoAmI() {
   const openGithub = () => window.open('https://github.com/manoloesparta')
 
   return (
-    <div>
+    <div >
       <h2>Who am I?</h2>
       <hr/>
 
-      <div class="wrapper block">
-        <img class="picture" src={me} alt="this is me"/>
-      </div>
+      <div class="custom-head">
+        <div class="wrapper block">
+          <img class="picture" src={me} alt="this is me"/>
+        </div>
 
-      <div class="description">
-        <p>Hello there, here is a picture of me.</p>
-        <p>I'm 22 years old, passionate about camping, ssbm, synthetizers, guitars, and computer science stuff.</p>
-        <p>Currently learning about microservices, software engineering, and (sometimes) full stack things.</p>
-        <p><span class="bold">Programming Languages: </span>Python, Java, Go, Typescript, C, C++, HTML/CSS/JS</p>
-        <p><span class="bold">Frameworks: </span>Flask, Django, Vertx, Express, React</p>
-        <p><span class="bold">Tools: </span>AWS, Linux, Docker, Git</p>
+        <div class="description">
+          <p><span class="bold">Languages: </span>Java, Python, Go, Typescript, C/C++</p>
+          <p><span class="bold">Frontend: </span>React & Redux, Redwood, Tailwind</p>
+          <p><span class="bold">Backend: </span>Flask, Django, Vertx, Express</p>
+          <p><span class="bold">Cloud Tools: </span>AWS, Linux, Docker, OCI, Terraform, Kubernetes</p>
 
-        <button onClick={openGithub} class="block social">Github</button>
-        <button onClick={openLinkedin} class="block social">Linkedin</button>
+          <button onClick={openGithub} class="block social">Github</button>
+          <button onClick={openLinkedin} class="block social">Linkedin</button>
+        </div>
       </div>
     </div>
   )

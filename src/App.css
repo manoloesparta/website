@@ -62,9 +62,9 @@ header {
 }
 
 .description {
-  float: right;
-  display: block;
+  height: 250px;
   max-width: 600px;
+  float: right;
 }
 
 .social {
@@ -81,4 +81,9 @@ footer {
 
 footer a {
   text-decoration: none;
+}
+
+.custom-head {
+  margin-right: 50px;
+  margin-left: 50px;
 }
