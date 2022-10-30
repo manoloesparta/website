@@ -12,7 +12,7 @@ export default function WhoAmI() {
       <hr/>
 
       <div class="custom-head">
-        <div class="wrapper block">
+        <div class="pic wrapper block">
           <img class="picture" src={me} alt="this is me"/>
         </div>
 
@@ -22,8 +22,10 @@ export default function WhoAmI() {
           <p><span class="bold">Backend: </span>Flask, Django, Vertx, Express</p>
           <p><span class="bold">Cloud Tools: </span>AWS, Linux, Docker, OCI, Terraform, Kubernetes</p>
 
-          <button onClick={openGithub} class="block social">Github</button>
-          <button onClick={openLinkedin} class="block social">Linkedin</button>
+          <div class="buttons">
+            <button onClick={openGithub} class="block social">Github</button>
+            <button onClick={openLinkedin} class="block social">Linkedin</button>
+          </div>
         </div>
       </div>
     </div>

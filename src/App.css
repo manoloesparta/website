@@ -87,3 +87,15 @@ footer a {
   margin-right: 50px;
   margin-left: 50px;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  .description {
+    margin-bottom: 40px;
+  }
+  .custom-head {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
