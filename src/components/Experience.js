@@ -2,9 +2,11 @@ import React from "react";
 import { experienceEntries } from "../data";
 import { Hr } from "./utils";
 
-function Card({ position, company, period, description, stack }) {
+function Card({ position, company, period, description, stack, url }) {
+  const openUrl = () => window.open(url);
+
   return (
-    <div className="card wrapper block">
+    <div onClick={openUrl} className="card wrapper block">
       <h3>
         <span className="bold">{position}</span> {company}
       </h3>
@@ -31,6 +33,7 @@ export default function Experience() {
             period={item.period}
             description={item.description}
             stack={item.stack}
+            url={item.url}
           />
         ))}
       </div>

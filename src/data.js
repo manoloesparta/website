@@ -10,6 +10,7 @@ export const experienceEntries = [
     description:
       "Currenlty working on the OCI infrastructure with the Autonomous Linux team.",
     stack: "Java, Go, Python, and OCI",
+    url: "https://www.oracle.com/cloud/",
   },
   {
     position: "Cloud Developer",
@@ -18,6 +19,7 @@ export const experienceEntries = [
     description:
       "Design and implement backend services for the Omnipod 5 infrastructure.",
     stack: "AWS, Python, and Java",
+    url: "https://www.omnipod.com/",
   },
   {
     position: "Devops",
@@ -26,6 +28,7 @@ export const experienceEntries = [
     description:
       "Developed some scripts with python for automating the onboarding process.",
     stack: "Ansible, Python, and Atlassian",
+    url: "https://www.omnipod.com/",
   },
   {
     position: "Intern",
@@ -34,6 +37,7 @@ export const experienceEntries = [
     description:
       "Laid the first steps to build a computer cluster for public usage in Tijuana.",
     stack: "Linux, Docker, and Wireguard",
+    url: "https://iaas.sig.nafiux.org/",
   },
 ];
 
@@ -44,6 +48,7 @@ export const educationEntries = [
     period: "August 2018 - July 2022",
     description:
       "Studied Computer Science at CETYS Universidad Campus Tijuana.",
+    url: "https://www.cetys.mx/oferta-educativa/profesional/ingenieria-en-ciencias-computacionales/",
   },
 ];
 

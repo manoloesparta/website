@@ -2,9 +2,11 @@ import React from "react";
 import { educationEntries } from "../data";
 import { Hr } from "./utils";
 
-function Card({ title, school, period, description }) {
+function Card({ title, school, period, description, url }) {
+  const openUrl = () => window.open(url);
+
   return (
-    <div className="card wrapper block">
+    <div onClick={openUrl} className="card wrapper block">
       <h3>
         <span className="bold">{title}</span> {school}
       </h3>
@@ -28,6 +30,7 @@ export default function Education() {
             school={item.school}
             period={item.period}
             description={item.description}
+            url={item.url}
           />
         ))}
       </div>
