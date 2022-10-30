@@ -4,8 +4,6 @@ import { useEffect, useState } from "react"
 const randomNumberRange = (min, max) => Math.floor(Math.random() * (max - min) + min)
 
 export default function Header() {
-  const description = `Software engineer with experience in cloud, frontend, and backend development. Also interested in systems and compilers.`
-  
   useEffect(() => {
     const chosen = randomNumberRange(128512, 128567)
     const emojiElement = document.getElementById('emoji')
@@ -16,12 +14,14 @@ export default function Header() {
   const nameHandler = () => setName('Manolo Esparta')
 
   return (
-    <header>
-      <h1>
+    <div className='p-5 pb-0'>
+      <h1 className='font-semibold mb-5' style={{fontSize: 30}}>
         <span id="emoji" onClick={nameHandler}></span> 
         <span> {name}</span>
       </h1>
-      <p>{description}<span class="bold"> Never stop learning.</span></p>
-    </header>
+      <p className='text-lg'>Software engineer with experience in cloud, frontend, and backend development.</p>
+      <p className='text-lg'>Also interested in systems and compilers.</p>
+      <p className='text-lg font-semibold'>Never stop learning.</p>
+    </div>
   )
 }

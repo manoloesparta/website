@@ -11,7 +11,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div class="max-w-screen-lg container mx-auto">
       <Header/>
       <WhoAmI/>
       <Experience/>
