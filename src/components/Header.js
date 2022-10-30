@@ -24,7 +24,9 @@ export default function Header() {
         Software engineer with experience in cloud, frontend, and backend
         development.
       </p>
-      <p className="text-lg">Also interested in systems and compilers.</p>
+      <p className="text-lg">
+        Also interested in low level systems programming and compilers.
+      </p>
       <p className="text-lg font-semibold">Never stop learning.</p>
     </div>
   );

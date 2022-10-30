@@ -11,33 +11,30 @@ export default function WhoAmI() {
     <div className="p-5 pb-0">
       <h2 className="text-2xl font-semibold">Who am I?</h2>
       <Hr />
-      <div className="flex">
-        <div
-          className="wrapper block flex-non"
-          style={{ maxWidth: 250, justifySelf: "end" }}
-        >
+      <div className="xl:flex lg:flex md:flex">
+        <div className="pic wrapper block" style={{ maxWidth: 250 }}>
           <img className="picture" src={me} alt="this is me" />
         </div>
 
-        <div className="description flex-2 ml-5">
+        <div className="flex-2 sm:flex-none ml-5 mt-3">
           <p>
             <span className="font-semibold">Languages: </span>Java, Python, Go,
             Typescript, C/C++
           </p>
           <p>
-            <span className="font-semibold">Cloud: </span>AWS, Linux, Docker, OCI,
-            Terraform, Kubernetes
+            <span className="font-semibold">Cloud: </span>AWS, Linux, Docker,
+            OCI, Terraform, Kubernetes
           </p>
           <p>
-            <span className="font-semibold">Backend: </span>Flask, Django, Vertx,
-            Express
+            <span className="font-semibold">Backend: </span>Flask, Django,
+            Vertx, Express
           </p>
           <p>
-            <span className="font-semibold">Frontend: </span>React & Redux, Redwood,
-            Tailwind
+            <span className="font-semibold">Frontend: </span>React & Redux,
+            Redwood, Tailwind
           </p>
 
-          <div className="grid grid-cols-4 mt-3">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 mt-3">
             <button onClick={openGithub} className="block social">
               Github
             </button>
