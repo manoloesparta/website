@@ -4,9 +4,9 @@ import { Hr } from "./utils";
 
 function Card({ title, school, period, description }) {
   return (
-    <div class="card wrapper block">
+    <div className="card wrapper block">
       <h3>
-        <span class="bold">{title}</span> {school}
+        <span className="bold">{title}</span> {school}
       </h3>
       <Hr />
       <small>{period}</small>

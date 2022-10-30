@@ -13,35 +13,35 @@ export default function WhoAmI() {
       <Hr />
       <div className="flex">
         <div
-          class="wrapper block flex-non"
+          className="wrapper block flex-non"
           style={{ maxWidth: 250, justifySelf: "end" }}
         >
-          <img class="picture" src={me} alt="this is me" />
+          <img className="picture" src={me} alt="this is me" />
         </div>
 
-        <div class="description flex-2 ml-5">
+        <div className="description flex-2 ml-5">
           <p>
-            <span class="font-semibold">Languages: </span>Java, Python, Go,
+            <span className="font-semibold">Languages: </span>Java, Python, Go,
             Typescript, C/C++
           </p>
           <p>
-            <span class="font-semibold">Cloud: </span>AWS, Linux, Docker, OCI,
+            <span className="font-semibold">Cloud: </span>AWS, Linux, Docker, OCI,
             Terraform, Kubernetes
           </p>
           <p>
-            <span class="font-semibold">Backend: </span>Flask, Django, Vertx,
+            <span className="font-semibold">Backend: </span>Flask, Django, Vertx,
             Express
           </p>
           <p>
-            <span class="font-semibold">Frontend: </span>React & Redux, Redwood,
+            <span className="font-semibold">Frontend: </span>React & Redux, Redwood,
             Tailwind
           </p>
 
           <div className="grid grid-cols-4 mt-3">
-            <button onClick={openGithub} class="block social">
+            <button onClick={openGithub} className="block social">
               Github
             </button>
-            <button onClick={openLinkedin} class="block social">
+            <button onClick={openLinkedin} className="block social">
               Linkedin
             </button>
           </div>

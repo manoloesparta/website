@@ -6,9 +6,9 @@ function Card({ title, description, stack, image, url }) {
   const openUrl = () => window.open(url);
 
   return (
-    <div onClick={openUrl} class="card wrapper block">
+    <div onClick={openUrl} className="card wrapper block">
       <h3>
-        <span class="bold">{title}</span>
+        <span className="bold">{title}</span>
       </h3>
       <Hr />
       <img src={image} alt="Project logo" />

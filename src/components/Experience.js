@@ -4,9 +4,9 @@ import { Hr } from "./utils";
 
 function Card({ position, company, period, description, stack }) {
   return (
-    <div class="card wrapper block">
+    <div className="card wrapper block">
       <h3>
-        <span class="bold">{position}</span> {company}
+        <span className="bold">{position}</span> {company}
       </h3>
       <Hr />
       <small>{period}</small>
