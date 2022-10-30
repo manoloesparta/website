@@ -18,9 +18,9 @@ export default function WhoAmI() {
 
         <div class="description">
           <p><span class="bold">Languages: </span>Java, Python, Go, Typescript, C/C++</p>
-          <p><span class="bold">Frontend: </span>React & Redux, Redwood, Tailwind</p>
+          <p><span class="bold">Cloud: </span>AWS, Linux, Docker, OCI, Terraform, Kubernetes</p>
           <p><span class="bold">Backend: </span>Flask, Django, Vertx, Express</p>
-          <p><span class="bold">Cloud Tools: </span>AWS, Linux, Docker, OCI, Terraform, Kubernetes</p>
+          <p><span class="bold">Frontend: </span>React & Redux, Redwood, Tailwind</p>
 
           <div class="buttons">
             <button onClick={openGithub} class="block social">Github</button>
