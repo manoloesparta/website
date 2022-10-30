@@ -17,15 +17,15 @@ export default function WhoAmI() {
         </div>
 
         <div className="flex-2 sm:flex-none ml-5 mt-3">
-          <p>
+          <p className="mb-2">
             <span className="font-semibold">Languages: </span>Java, Python, Go,
             Typescript, C/C++
           </p>
-          <p>
+          <p className="mb-2">
             <span className="font-semibold">Cloud: </span>AWS, Linux, Docker,
             OCI, Terraform, Kubernetes
           </p>
-          <p>
+          <p className="mb-2">
             <span className="font-semibold">Backend: </span>Flask, Django,
             Vertx, Express
           </p>
