@@ -27,7 +27,7 @@ export default function WhoAmI() {
           </p>
           <p className="mb-2">
             <span className="font-semibold">Backend: </span>Flask, Django,
-            Vertx, Express
+            Vertx, Express, FastAPI
           </p>
           <p>
             <span className="font-semibold">Frontend: </span>React & Redux,
