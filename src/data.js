@@ -8,8 +8,8 @@ export const experienceEntries = [
     company: "at Oracle",
     period: "July 2022 - Today",
     description:
-      "Currenlty working on the OCI infrastructure with the Autonomous Linux team.",
-    stack: "Java, Go, Python, and OCI",
+      "Currently working on the OCI infrastructure with the Autonomous Linux team.",
+    stack: "Java, Go, React, and OCI",
     url: "https://www.oracle.com/cloud/",
   },
   {
