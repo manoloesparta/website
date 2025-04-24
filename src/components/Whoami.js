@@ -11,7 +11,7 @@ export default function WhoAmI() {
   const openBlog = () => window.open("https://blog.mano.lol");
 
   return (
-    <div className="p-5 pb-0">
+    <div className="p-5 pb-0 pt-10">
       <h2 className="text-2xl font-semibold">Manuel Esparza Guzman</h2>
       <Hr />
       <div className="text-center">
