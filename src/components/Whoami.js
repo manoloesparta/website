@@ -7,7 +7,6 @@ export default function WhoAmI() {
     window.open("https://www.linkedin.com/in/manuel-esparza-9b6948165/");
   const openGithub = () => window.open("https://github.com/manoloesparta");
   const openResume = () => window.open("./CV_MANUEL_ESPARZA_GUZMAN.pdf");
-  const openTwitter = () => window.open("https://x.com/slopydev");
   const openBlog = () => window.open("https://blog.mano.lol");
 
   return (
@@ -44,9 +43,6 @@ export default function WhoAmI() {
             </button>
             <button onClick={openLinkedin} className="block social">
               Linkedin
-            </button>
-            <button onClick={openTwitter} className="block social">
-              Twitter
             </button>
             <button onClick={openBlog} className="block social">
               Blog
