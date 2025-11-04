@@ -6,7 +6,7 @@ export default function WhoAmI() {
   const openLinkedin = () =>
     window.open("https://www.linkedin.com/in/manuel-esparza-9b6948165/");
   const openGithub = () => window.open("https://github.com/manoloesparta");
-  const openResume = () => window.open("./CV_MANUEL_ESPARZA_GUZMAN.pdf");
+  const openResume = () => window.open("./FULLSTACK_DEVELOPER_CV_MANUEL_ESPARZA_GUZMAN.pdf");
   const openBlog = () => window.open("https://blog.mano.lol");
 
   return (
