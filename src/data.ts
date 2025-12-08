@@ -2,7 +2,39 @@ import pi from "./assets/pi.jpg";
 import lalalang from "./assets/lalalang.png";
 import shrtnr from "./assets/shrtnr.png";
 
-export const experienceEntries = [
+export interface ExperienceEntry {
+  position: string;
+  company: string;
+  period: string;
+  description: string;
+  stack: string;
+  url: string;
+}
+
+export interface EducationEntry {
+  title: string;
+  school: string;
+  period: string;
+  description: string;
+  url: string;
+}
+
+export interface ProjectEntry {
+  title: string;
+  image: ImageMetadata;
+  url: string;
+  description: string;
+  stack: string;
+}
+
+interface ImageMetadata {
+  src: string;
+  width: number;
+  height: number;
+  format: string;
+}
+
+export const experienceEntries: ExperienceEntry[] = [
   {
     position: "Software Engineer",
     company: "at Oracle",
@@ -41,7 +73,7 @@ export const experienceEntries = [
   },
 ];
 
-export const educationEntries = [
+export const educationEntries: EducationEntry[] = [
   {
     title: "Computer Science",
     school: "at CETYS",
@@ -52,7 +84,7 @@ export const educationEntries = [
   },
 ];
 
-export const projectsEntries = [
+export const projectsEntries: ProjectEntry[] = [
   {
     title: "La La Lang",
     image: lalalang,

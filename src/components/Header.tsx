@@ -1,17 +1,19 @@
-import React from "react";
 import { useEffect, useState } from "react";
 
-const randomNumberRange = (min, max) =>
+const randomNumberRange = (min: number, max: number): number =>
   Math.floor(Math.random() * (max - min) + min);
 
 export default function Header() {
+  const [name, setName] = useState("Manuel Esparza");
+
   useEffect(() => {
     const chosen = randomNumberRange(128512, 128567);
     const emojiElement = document.getElementById("emoji");
-    emojiElement.innerHTML = `&#${chosen};`;
+    if (emojiElement) {
+      emojiElement.innerHTML = `&#${chosen};`;
+    }
   }, []);
 
-  const [name, setName] = useState("Manuel Esparza");
   const nameHandler = () => setName("Manolo Esparta");
 
   return (

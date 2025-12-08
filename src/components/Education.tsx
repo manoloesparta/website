@@ -1,8 +1,9 @@
-import React from "react";
-import { educationEntries } from "../data";
+import { educationEntries, type EducationEntry } from "../data";
 import { Hr } from "./utils";
 
-function Card({ title, school, period, description, url }) {
+interface CardProps extends EducationEntry {}
+
+function Card({ title, school, period, description, url }: CardProps) {
   const openUrl = () => window.open(url);
 
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import me from "../assets/me2.jpg";
 import { Hr } from "./utils";
 
@@ -18,7 +17,7 @@ export default function WhoAmI() {
           className="pic wrapper block object-contain"
           style={{ maxWidth: 250 }}
         >
-          <img className="picture object-cover" src={me} alt="this is me" />
+          <img className="picture object-cover" src={me.src} alt="this is me" />
         </div>
 
         <div className="flex-2 sm:flex-none overflow-hidden">

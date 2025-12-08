@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  max-width: 275px;
+  padding: 10px !important;
+  text-align: left;
+}
+
+.card img {
+  height: 150px;
+  display: block;
+  margin: 10px auto 0px auto !important;
+}
+
+#emoji:hover {
+  cursor: pointer;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  display: block;
+}

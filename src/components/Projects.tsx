@@ -1,8 +1,9 @@
-import React from "react";
-import { projectsEntries } from "../data";
+import { projectsEntries, type ProjectEntry } from "../data";
 import { Hr } from "./utils";
 
-function Card({ title, description, stack, image, url }) {
+interface CardProps extends ProjectEntry {}
+
+function Card({ title, description, stack, image, url }: CardProps) {
   const openUrl = () => window.open(url);
 
   return (
@@ -11,7 +12,7 @@ function Card({ title, description, stack, image, url }) {
         <span className="bold">{title}</span>
       </h3>
       <Hr />
-      <img src={image} alt="Project logo" />
+      <img src={image.src} alt="Project logo" />
       <p>{description}</p>
       <Hr />
       <p>{stack}</p>

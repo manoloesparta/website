@@ -1,6 +1,4 @@
-import React from "react";
 import "./App.css";
-
 import WhoAmI from "./components/Whoami";
 
 function App() {

@@ -1,8 +1,9 @@
-import React from "react";
-import { experienceEntries } from "../data";
+import { experienceEntries, type ExperienceEntry } from "../data";
 import { Hr } from "./utils";
 
-function Card({ position, company, period, description, stack, url }) {
+interface CardProps extends ExperienceEntry {}
+
+function Card({ position, company, period, description, stack, url }: CardProps) {
   const openUrl = () => window.open(url);
 
   return (
