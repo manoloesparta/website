@@ -10,40 +10,40 @@ export default function WhoAmI() {
 
   return (
     <div className="p-5 pb-0 pt-10">
-      <h2 className="text-2xl font-semibold">Manuel Esparza Guzman</h2>
+      <h1 className="text-4xl font-bold mb-6 text-center md:text-left">Manuel Esparza Guzman</h1>
       <Hr />
-      <div className="text-center">
-        <div
-          className="pic wrapper block object-contain"
-          style={{ maxWidth: 250 }}
-        >
-          <img className="picture object-cover" src={me.src} alt="this is me" />
+      <div className="flex flex-col md:flex-row gap-8 items-center md:items-start mt-8">
+        <div className="flex-shrink-0">
+          <img className="picture mx-auto" src={me.src} alt="Manuel Esparza" />
         </div>
 
-        <div className="flex-2 sm:flex-none overflow-hidden">
-          <p className="mb-2 text-wrap text-justify">
+        <div className="flex-1">
+          <p className="mb-6 text-lg leading-relaxed text-justify">
             I'm a software engineer based in Guadalajara, Mexico, with
             experience working across backend, frontend, and cloud
             infrastructure. I studied Computer Science at CETYS Universidad,
             where I focused on AI, and since then I've been building scalable
-            systems and tools in real-world environments. Right now, I work at
-            Oracle, where I'm involved in a little bit of everything—from
-            backend development in Java, a lightweight agent for compute
-            instance in Go, operate and enhance a Kubernetes cluter, to
-            creating production-ready React apps based on Figma designs.
+            systems and tools in real-world environments.
           </p>
 
-          <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-4 grid-cols-3 mt-3">
-            <button onClick={openResume} className="block social">
+          <p className="mb-6 text-lg leading-relaxed text-justify">
+            I'm passionate about building robust systems and creating great user experiences,
+            working across the full stack—from backend development in Java and Go, to
+            operating Kubernetes clusters, to creating production-ready React applications
+            based on Figma designs.
+          </p>
+
+          <div className="flex flex-wrap gap-3 mt-6 justify-center md:justify-start">
+            <button onClick={openResume} className="block social px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium">
               Resume
             </button>
-            <button onClick={openGithub} className="block social">
+            <button onClick={openGithub} className="block social px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium">
               Github
             </button>
-            <button onClick={openLinkedin} className="block social">
+            <button onClick={openLinkedin} className="block social px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium">
               Linkedin
             </button>
-            <button onClick={openBlog} className="block social">
+            <button onClick={openBlog} className="block social px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium">
               Blog
             </button>
           </div>

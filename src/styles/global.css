@@ -2,24 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .card {
   max-width: 275px;
   padding: 10px !important;
   text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
   height: 150px;
   display: block;
   margin: 10px auto 0px auto !important;
+  object-fit: cover;
+}
+
+#emoji {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.2s ease;
 }
 
 #emoji:hover {
-  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .picture {
   width: 250px;
   height: 250px;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.social {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
 }

@@ -38,9 +38,9 @@ export const experienceEntries: ExperienceEntry[] = [
   {
     position: "Software Engineer",
     company: "at Oracle",
-    period: "July 2022 - Today",
+    period: "July 2022 - December 2024",
     description:
-      "Currently working on the OCI infrastructure with the Autonomous Linux team.",
+      "Worked on the OCI infrastructure with the Autonomous Linux team.",
     stack: "Java, Go, React, and OCI",
     url: "https://www.oracle.com/cloud/",
   },

@@ -22,11 +22,11 @@ function Card({ title, description, stack, image, url }: CardProps) {
 
 export default function Project() {
   return (
-    <div className="p-5 pb-0">
-      <h2 className="text-2xl font-semibold">Projects</h2>
+    <div className="p-5 pb-0 mt-12">
+      <h2 className="text-3xl font-bold mb-2">Projects</h2>
       <Hr />
 
-      <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-4 place-content-center">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-6 mt-6">
         {projectsEntries.map((item, index) => (
           <Card
             key={index}
