@@ -1,6 +1,7 @@
 {
   "name": "website",
   "version": "2.0.1",
+  "node": ">=20.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
